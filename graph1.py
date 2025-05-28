@@ -50,4 +50,6 @@ plt.grid()
 plt.legend()
 
 plt.suptitle("This is my first Graph", fontsize=14)
+
+plt.savefig("mygraph.pdf")
 plt.show()
